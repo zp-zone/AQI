@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/ll_aqi_data_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="20dp"
+        android:layout_weight="1" >
+
+        <include
+            android:id="@+id/ll_cur_data"
+            layout="@layout/activity_history_item" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_aqi_data_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="1" >
+
+        <include
+            android:id="@+id/ll_last_data"
+            android:layout_weight="1"
+            layout="@layout/activity_history_item" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_aqi_data_3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="20dp"
+        android:layout_weight="1" >
+
+        <include
+            android:id="@+id/ll_last_data"
+            android:layout_weight="1"
+            layout="@layout/activity_history_item" />
+    </LinearLayout>
+
+</LinearLayout>

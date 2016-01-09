@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity" >
+
+    <Button
+        android:id="@+id/bt_get_city"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="获取地理位置"
+        />
+    
+    
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--" />
+    
+    <Button
+        android:id="@+id/bt_get_aqi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="获取天气信息"
+        />
+    
+    <TextView
+        android:id="@+id/tv_aqi_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--" />
+    
+    <TextView
+        android:id="@+id/tv_level_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--" />
+    
+    <Button
+        android:id="@+id/bt_get_cities"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="获取城市列表"
+        />
+    
+    <TextView
+        android:id="@+id/tv_cities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--" />
+
+</LinearLayout>

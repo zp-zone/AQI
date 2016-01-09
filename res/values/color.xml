@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_aqi_text_1">#fafafa</color>
+    <color name="color_aqi_text_2">#f5f5f5</color>
+    <color name="color_aqi_text_3">#000000</color>
+    
+    <!-- 带透明度的背景色#a05677fc -->
+    <color name="color_light_blue">#039ae5</color>
+    
+    <color name="color_aqi_level_1">#42bd41</color>	<!--绿     优 0-50 -->
+    <color name="color_aqi_level_2">#dce775</color>	<!--黄      良 50-100 -->
+    <color name="color_aqi_level_3">#ffb74d</color>	<!--橙      轻度污染 100-150 -->
+    <color name="color_aqi_level_4">#ff8a65</color>	<!--紅      中度污染150-200 -->
+    <color name="color_aqi_level_5">#8e24aa</color>	<!--紫      重度污染 200-300 -->
+    <color name="color_aqi_level_6">#880e4f</color>	<!--灰紫  严重污染 300-500 -->
+    
+</resources>

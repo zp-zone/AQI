@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  查询城市信息url地址http://www.pm25.in/api/querys.json  -->
+    <!-- 实际访问示例 -->
+    <!-- http://www.pm25.in/api/querys.json?token=5j1znBVAsnSf5xQyNQyq -->
+    <!--  
+    <string name="query_cities_url">http://192.168.1.130/Server4AndroidDemo/servlet/QueryCities</string>
+    -->
+    <string name="query_cities_url">http://www.pm25.in/api/querys.json</string>
+    
+    <!-- 查询AQI信息的url地址http://www.pm25.in/api/querys/aqi_details.json -->
+    <!-- 实际访问示例，其中城市名已经经过u8编码 -->
+    <!-- http://www.pm25.in/api/querys/aqi_details.json?city=%E6%88%90%E9%83%BD&token=5j1znBVAsnSf5xQyNQyq&stations=no -->
+    <!--  
+    <string name="query_aqi_url">http://192.168.1.130/Server4AndroidDemo/servlet/QueryAQI</string>
+    -->
+    <string name="query_aqi_url">http://www.pm25.in/api/querys/aqi_details.json</string>
+    
+    <!-- 访问pm25in网站API接口所必须的token -->
+    <string name="query_pm25in_token">5j1znBVAsnSf5xQyNQyq</string>
+    
+</resources>

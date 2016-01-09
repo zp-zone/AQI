@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">空气质量AQI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tv_citylist_title">选择城市</string>
+    <string name="splash_description_1">关注健康</string>
+    <string name="splash_description_2">关注空气质量</string>
+
+</resources>

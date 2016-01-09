@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:background="@color/color_light_blue" >
+
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:gravity="center"
+        android:textColor="@color/color_aqi_text_1"
+        android:textSize="@dimen/activity_title_textsize" 
+        android:text="@string/tv_citylist_title"/>
+
+</FrameLayout>
