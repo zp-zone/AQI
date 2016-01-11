@@ -1,8 +1,5 @@
 /*
  * Filename	CharacterParser.java
- * Company	上海乐问-浦东分公司。
- * @author	LuRuihui
- * @version	0.1
  */
 package com.zp.aqi.module.sortlist;
 
